@@ -8,7 +8,7 @@ export const SettingsScreen = ({navigation}) => {
   );
 
   const handleSetLanguage = async language => {
-    setAppLanguage(language, true);
+    setAppLanguage(language);
   };
 
   return (
